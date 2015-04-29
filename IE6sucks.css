@@ -1,0 +1,42 @@
+/*Bullshit Styles for shitty old IE6
+---------------------------------------------------*/
+
+ul#nav	{
+	margin-top:-3px;
+	}
+
+ul#nav li a	{
+	display:inline-block;
+	padding:10px 0 0 0;
+	}
+
+ul#nav li a:link, ul#nav li a:visited	{
+	border-top:5px solid #fff;
+	}
+	
+ul#nav li a:hover, ul#nav li a:active	{
+	border-top:5px solid #666;
+	color:#666;
+	}
+	
+* { /* This is a fix for all backgrounds that flicker when the anchor's hover state is triggered */
+    filter: expression(document.execCommand("BackgroundImageCache", false, true));
+  }
+  
+  
+ul.actualDimensions li a {
+	display:inline;
+	border:none;
+	}
+
+ul.noborder	li a {
+	display:inline;
+	}
+	
+li#collage	{
+	margin:0 0 0 125px;
+	}
+	
+li#leaf	{
+	margin:0 0 0 125px;
+	}
